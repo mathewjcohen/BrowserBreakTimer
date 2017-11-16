@@ -1,0 +1,13 @@
+{
+  "name": "browserBreakTimer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "breakTimer.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Mathew Cohen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

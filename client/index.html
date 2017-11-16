@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Browser Break Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer_controls">
+      <button data-time="300" class="timer_button">Take 5</button>
+      <button data-time="600" class="timer_button">Quick 10</button>
+      <button data-time="900" class="timer_button">15 Minutes</button>
+      <button data-time="1800" class="timer_button">Half Hour</button>
+      <button data-time="3600" class="timer_button">One Hour</button>
+      <form name="timerForm" id="custom">
+        <input type="text" name="minutes" placeholder="Enter Minutes">
+      </form>
+      <button id="clear" class="timer_button">Clear</button>
+    </div>
+    <div class="display">
+      <h1 class="display_time-left"></h1>
+      <p class="display_end-time"></p>
+    </div>
+  </div>
+  <script src="breakTimer.js"></script>
+</body>
+</html>
