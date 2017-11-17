@@ -4,6 +4,8 @@ const endingTime = document.querySelector('.display_end-time');
 const buttons = document.querySelectorAll('[data-time]');
 
 function timer(seconds){
+  // limit max time to 99:59
+  seconds > 5999 ? seconds = 5999 : null;
   clearInterval(countdown);
 
   const now = Date.now();
